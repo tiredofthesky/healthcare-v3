@@ -1,0 +1,32 @@
+.header-main{
+    display: flex;
+    padding: 3ch;
+    
+    * > span{
+        font-weight: bold;
+    }
+
+    .search > input{
+        background: #FFFFFF;
+        border-radius: 100px;
+        border: none;
+        width: 40ch;
+        height: 4ch;
+        outline: none;
+        background: url(../resource/icon/search.svg) no-repeat scroll 8px 8px;
+        padding-left: 30px;
+        box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08);
+        border: 1px solid black;
+    }
+
+    .alert{
+       display: flex;
+        padding-left: 75%;
+    }
+
+    .profile > img{
+        width: 80%;
+        padding-left: 2ch;
+     
+    }
+}

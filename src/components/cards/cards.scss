@@ -1,0 +1,57 @@
+.cardss{
+    display: flex;
+    padding-left: 3ch;
+    justify-content: space-around;
+    .one{
+
+        border-radius: 1ch;
+        width: 25ch;
+        box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08);  
+        padding: 2ch;
+
+        >h3{
+            
+        }
+        >span{
+            font-weight: bold;
+           color: #336CFB;
+        }
+    }
+
+    .two{
+        
+        padding: 2ch;
+        border-radius: 1ch;
+        width: 25ch;
+        box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08); 
+        
+        >span{
+            font-weight: bold;
+            color: #336CFB;
+         }
+     
+    }
+    .three{
+        padding: 2ch;
+        border-radius: 1ch;
+        width: 25ch;
+        box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08); 
+        >span{
+            font-weight: bold;
+            color: #336CFB;
+         } 
+    }
+    
+    .four{
+        padding: 2ch;
+        border-radius: 1ch;
+        width: 25ch;
+        box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08);
+        
+        >span{
+            font-weight: bold;
+            color: #336CFB;
+         }
+     
+    }
+}

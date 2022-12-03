@@ -1,0 +1,52 @@
+$main_color: #f6f8fb;
+$active: #336cfb;
+$text: #52575c;
+$hr_color: #e8e8e8;
+
+aside {
+  background: $main_color;
+  width: 15pc;
+  height: 100%;
+  float: left;
+  box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.1);
+
+  .logo {
+    padding: 2ch 0ch 3ch 4ch;
+    width: 60%;
+  }
+
+  p {
+    color: gray;
+    
+  }
+
+  .im {
+    > img {
+      margin-right: 1ch;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 4ch;
+      
+      a {
+        text-decoration: none;
+        color: $text;
+        font-weight: bold;
+        font-size: small;
+      }
+  
+    }
+  }
+
+  .active {
+    color: $active;
+  }
+
+  hr {
+    border: 0.01ch solid $hr_color;
+  }
+}

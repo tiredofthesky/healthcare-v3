@@ -1,0 +1,25 @@
+.container{
+    margin: 0;
+    padding: 0;
+
+    max-width: 1850px;
+    height: 950px;
+    
+
+}
+
+.DashboardContent__survey {
+	margin-top: 30px;
+	.DashboardContent__survey--item {
+		max-width: 100%;
+		margin-bottom: 38px;
+	}
+	.DashboardContent--money {
+		display: flex;
+		justify-content: space-between;
+		.DashboardContent--money__item {
+			width: 50%;
+			max-width: 540px;
+		}
+	}
+}
